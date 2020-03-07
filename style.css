@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+body{
+    font-family: 'Poppins',sans-serif ;
+    font-size: 15px;
+    color: dimgray;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+    color: #202428;
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+/* hero-section */
+.hero-area{
+    background-image: url("images/header-bg.png");
+    background-position: center center;
+    background-size:cover;
+}
+section {
+    padding: 70px 0px;
+}
+.container-width {
+    max-width: 1140px;
+    /* width:1140px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.hero-content,.bio-content {
+    padding-top: 90px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hero-content h3 {
+    font-weight: normal;
+    font-size: 30px;
+}
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #EC4C7A;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+.hero-button {
+    background-image: linear-gradient(45deg,#EC4C79,#DC91A7);
+    padding: 14px 45px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 37px;
+    display: inline-block;
+    transition: linear .2s;
+}
+.hero-button:hover {
+    background-image: linear-gradient(45deg,#DC91A7,#EC4C79);
+    transition: linear .2s;
+}
+
+/* biography-area */
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-position: center center;
+    background-size:cover;
+}
+.section-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+/* work-area  */
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-position: center center;
+    background-size:cover;
+}
+.work-img {
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    transform: scale(1);
+    transition: .2s;
+}
+.work-img:hover {
+    transform: scale(1.03);
+}
+ .section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* client-area */
+.client-area{
+    background-image: url("images/client-bg.png");
+    background-size: cover;
+    background-position: top center;
+}
+.reviews span{
+    color:dimgray
+}
+.review-content p {
+    color: #333333;
+    font-weight: 600;
+    font-size: 20px;
+    /* width: 35%; */
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 39px;
+}
+.reviews {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-name h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.button {
+    background-image: linear-gradient(45deg,#EC4C79,#DC91A7);
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 5px;
+}
+
+.button p {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.button a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+footer p {
+    text-align: center;
+}
